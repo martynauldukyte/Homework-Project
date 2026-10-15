@@ -1,0 +1,5 @@
+name: hw6_env
+channels:
+dependencies:
+
+prefix: "C:\\Users\\marty\\miniforge3\\envs\\hw6_env"
