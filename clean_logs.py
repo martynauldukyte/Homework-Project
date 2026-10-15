@@ -43,4 +43,4 @@ with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', e
             temp_c = celsius_converter(temp_f)
             outfile.write(f"{timestamp},{station_id},{temp_c},{humidity},{status}\n")
 
-print(f"Apdorojimas baigtas. Praleistos sugadintos eilutės: {corrupted_count}")
+print(f"How many corrupted lines were skipped: {corrupted_count}")
